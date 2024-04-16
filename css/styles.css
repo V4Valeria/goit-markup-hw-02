@@ -21,6 +21,9 @@ body {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 /* === HEADER STYLES ===*/
@@ -42,13 +45,14 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .menu-link:hover,
 .menu-link:focus {
   color: #404bbf;
 }
 .contacts {
-  font-style: normal
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -92,6 +96,7 @@ body {
 /* ===BENEFITS STYLES === */
 
 .benefits-list-title {
+  color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -115,8 +120,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
+  color: #2e2f42;
 }
 .team-list-item {
   background-color: #ffffff;
@@ -143,7 +147,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: #2e2f42;
 }
 
 /* === FOOTER STYLES === */
@@ -152,7 +156,7 @@ body {
   background: #2e2f42;
 }
 .footer-logo {
-  color:#4d5ae5;
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -161,7 +165,7 @@ body {
   text-transform: uppercase;
 }
 .footer-accent {
-  color:#f4f4fd;
+  color: #f4f4fd;
 }
 .footer-text {
   font-weight: 400;
