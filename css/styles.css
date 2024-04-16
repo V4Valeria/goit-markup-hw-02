@@ -12,29 +12,30 @@ button {
   cursor: pointer;
 }
 body {
-  font-family: "Roboto", sans-serif, "Raleway", sans-serif;
-  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
   background-color: #ffffff;
-}
-.accent-color {
-  color: #4d5ae5;
 }
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
 }
 
 /* === HEADER STYLES ===*/
 
 .page-logo {
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.header-accent {
+  color: #2e2f42;
 }
 .menu-link {
   font-weight: 500;
@@ -47,6 +48,7 @@ body {
   color: #404bbf;
 }
 .contacts {
+  font-style: normal
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -66,17 +68,19 @@ body {
 .main-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
 }
 
 .order-service-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
 }
 
@@ -86,6 +90,7 @@ body {
 }
 
 /* ===BENEFITS STYLES === */
+
 .benefits-list-title {
   font-weight: 500;
   font-size: 20px;
@@ -93,6 +98,7 @@ body {
   letter-spacing: 0.02em;
 }
 .benefits-list-text {
+  color: #434455;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -110,6 +116,10 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
+}
+.team-list-item {
+  background-color: #ffffff;
 }
 .team-list-text {
   font-weight: 400;
@@ -142,13 +152,16 @@ body {
   background: #2e2f42;
 }
 .footer-logo {
+  color:#4d5ae5;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+}
+.footer-accent {
+  color:#f4f4fd;
 }
 .footer-text {
   font-weight: 400;
